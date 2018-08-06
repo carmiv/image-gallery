@@ -1,0 +1,59 @@
+.gallery-horizontalView .list-horizontalView {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.gallery-horizontalView .gallery-item {
+  position: relative;
+  overflow:hidden;
+  max-height: 200px;
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.gallery-horizontalView .image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-height: 200px;
+  filter: contrast(80%);
+  cursor: pointer;
+
+}
+
+.gallery-horizontalView .gallery-item:hover .image {
+  filter: contrast(100%)
+}
+
+.gallery-horizontalView .content {
+  padding: 20px;
+}
+
+/* Horizontal View for Mobile Phones */
+@media only screen and (max-width: 767px) {
+
+  .gallery-horizontalView .gallery-item {
+    max-height: 150px;
+    margin: 5px auto;
+  }
+
+  .gallery-horizontalView .image {
+    max-height: 150px;
+  }
+
+  .gallery-horizontalView .content {
+    padding: 5px;
+  }
+
+  .gallery-horizontalView .content h3 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+}

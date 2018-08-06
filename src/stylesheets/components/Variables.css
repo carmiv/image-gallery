@@ -1,0 +1,20 @@
+:root {
+  --brown-pink-3: #e3c9c9;
+  --brown-pink-2: #eedbdb;
+  --brown-pink-1: #f4e7e7;
+  --gray: #cecbcb;
+  /*--blue: #cbdadb;*/
+
+  --blue: #4285f4;
+  --maroon: #5c2018;
+  --red: #bc4639;
+  --peach: #d4a59a;
+  --cream: #f3e0dc;
+
+
+  --green-dark: #61892f;
+  --green-light: #86c232;
+  --black: #222629;
+  --gray-dark: #474b4f;
+  --gray-light: #6b6e70;
+}

@@ -1,0 +1,26 @@
+.gallery {
+  margin-top: 50px;
+}
+
+.gallery-item {
+  background: var(--black);
+  color: ghostwhite;
+  box-shadow: 0 1px 10px var(--gray-dark);
+  border: 1px solid var(--black);
+}
+
+.gallery-item .content h3 {
+  color: var(--green-dark);
+  font-family: Bebasneue, sans-serif;
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.gallery-item .content p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 0 10px;
+}
